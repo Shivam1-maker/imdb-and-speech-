@@ -1,0 +1,41 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "poppins", sans-serif;
+  background-color: #eee;
+}
+.container {
+  padding-left: 5%;
+  margin-right: 5%;
+}
+#template {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#template div {
+  width: 24.5%;
+  background-color: #fff;
+  margin: 10px 0;
+}
+img {
+  width: 100%;
+}
+h1 {
+  margin: 0;
+}
+#template a {
+  padding: 10px;
+  background: #07dbeb;
+  margin: 8px;
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 4px solid rgb(18, 41, 243);
+  transform: scale(1);
+  transition: ease-in all 0.7s;
+}
+#template a:hover {
+  background-color: #111;
+}
